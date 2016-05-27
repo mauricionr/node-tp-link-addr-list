@@ -1,4 +1,3 @@
-var init = require('./getData');
-
+var init = require('./init');
 
 init();

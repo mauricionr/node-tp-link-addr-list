@@ -1,6 +1,7 @@
+var cheerio = require('cheerio');
+var $, script, data, ips = [], counter = 0, ip = {}, i = 1;
+
 function getClients(res) {
-    var cheerio = require('cheerio');
-    var $, script, data, ips = [], counter = 0, ip = {}, i = 1;
     $ = cheerio.load(res.body);
     script = $('script');
     data = eval(script[0].children[0].data);
