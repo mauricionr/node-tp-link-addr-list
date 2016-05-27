@@ -10,6 +10,8 @@
 
 `cd node-tp-link-addr-list`
 
+`code .`
+
 `npm install`
 
 `npm run start`
